@@ -6034,12 +6034,12 @@ var tgpps6aXML = `<?xml version="1.0" encoding="UTF-8"?>
             </data>
         </avp>
 
-        <avp name="MIP-Home-Agent-Address" code="334" must="M" must-not="V" vendor-id="10415">
+        <avp name="MIP-Home-Agent-Address" code="334" must="M" must-not="V">
             <data type="Address"/>
         </avp>
 
         <!-- RFC 4004 -->
-        <avp name="MIP-Home-Agent-Host" code="348" must="M" may="P" must-not="V" may-encrypt="Y" vendor-id="10415">
+        <avp name="MIP-Home-Agent-Host" code="348" must="M" may="P" must-not="V" may-encrypt="Y">
             <data type="Grouped">
                 <rule avp="Destination-Realm" required="true" max="1"/>
                 <rule avp="Destination-Host" required="true" max="1"/>
@@ -6048,7 +6048,7 @@ var tgpps6aXML = `<?xml version="1.0" encoding="UTF-8"?>
         </avp>
 
         <!-- RFC 5447 Diameter Mobile IPv6: Support for Network Access Server to Diameter Server Interaction -->
-        <avp name="MIP6-Agent-Info" code="486" must="M" may="P" must-not="V" may-encrypt="Y" vendor-id="10415">
+        <avp name="MIP6-Agent-Info" code="486" must="M" may="P" must-not="V" may-encrypt="Y">
             <data type="Grouped">
                 <rule avp="MIP-Home-Agent-Address" required="false" max="2"/>
                 <rule avp="MIP-Home-Agent-Host" required="false" max="1"/>
@@ -6065,7 +6065,7 @@ var tgpps6aXML = `<?xml version="1.0" encoding="UTF-8"?>
             <data type="OctetString"/>
         </avp>
 
-        <avp name="MIP6-Home-Link-Prefix" code="125" vendor-id="10415">
+        <avp name="MIP6-Home-Link-Prefix" code="125">
             <data type="OctetString"/>
         </avp>
 
