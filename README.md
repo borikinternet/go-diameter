@@ -102,4 +102,3 @@ is not mandatory). To do so, run `make test_docker`. Runing test on Linux  can
 be useful in case you add `sctp` tests. Note you will need to install
 docker and docker-compose.
 
-
