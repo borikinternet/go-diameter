@@ -7,8 +7,8 @@ package smpeer
 import (
 	"context"
 
-	"github.com/fiorix/go-diameter/v4/diam/datatype"
-	"github.com/fiorix/go-diameter/v4/diam/sm/smparser"
+	"github.com/borikinternet/go-diameter/v4/diam/datatype"
+	"github.com/borikinternet/go-diameter/v4/diam/sm/smparser"
 )
 
 type key int

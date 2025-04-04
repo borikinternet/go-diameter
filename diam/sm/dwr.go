@@ -5,10 +5,10 @@
 package sm
 
 import (
-	"github.com/fiorix/go-diameter/v4/diam"
-	"github.com/fiorix/go-diameter/v4/diam/avp"
-	"github.com/fiorix/go-diameter/v4/diam/datatype"
-	"github.com/fiorix/go-diameter/v4/diam/sm/smparser"
+	"github.com/borikinternet/go-diameter/v4/diam"
+	"github.com/borikinternet/go-diameter/v4/diam/avp"
+	"github.com/borikinternet/go-diameter/v4/diam/datatype"
+	"github.com/borikinternet/go-diameter/v4/diam/sm/smparser"
 )
 
 // handleDWR handles Device-Watchdog-Request messages.

@@ -12,9 +12,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/fiorix/go-diameter/v4/diam"
-	"github.com/fiorix/go-diameter/v4/diam/avp"
-	"github.com/fiorix/go-diameter/v4/diam/datatype"
+	"github.com/borikinternet/go-diameter/v4/diam"
+	"github.com/borikinternet/go-diameter/v4/diam/avp"
+	"github.com/borikinternet/go-diameter/v4/diam/datatype"
 	"github.com/ishidawataru/sctp"
 )
 
