@@ -37,13 +37,13 @@ func TestLoadFile(t *testing.T) {
 }
 
 func TestLoad(t *testing.T) {
+	p, _ := NewParser()
 	for _, dict := range testDicts {
 		f, err := os.Open(dict)
 		if err != nil {
 			t.Fatalf("Error Opening %s: %s", dict, err)
 		}
 		defer f.Close()
-		p, _ := NewParser()
 		if err = p.Load(f); err != nil {
 			t.Fatalf("Error Loading Parsing %s: %s", dict, err)
 		}

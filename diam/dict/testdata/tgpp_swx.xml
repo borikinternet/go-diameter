@@ -208,7 +208,7 @@
             </data>
         </avp>
 
-        <avp name="Service-Selection" code="493" must="M" may="P" must-not="V" may-encrypt="Y" vendor-id="0">
+        <avp name="Service-Selection" code="493" must="M" may="P" must-not="V" may-encrypt="Y">
             <!-- http://www.qtc.jp/3GPP/Specs/29273-920.pdf Section 5.2.3.5 -->
             <data type="UTF8String"/>
         </avp>
